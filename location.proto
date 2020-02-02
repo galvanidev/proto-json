@@ -1,0 +1,16 @@
+syntax = "proto3";
+package main;
+
+import "google/protobuf/timestamp.proto";
+
+message Location {
+  uint64 id = 1;
+  uint64 user_id = 2;
+  float lat = 3;
+  float long = 4;
+  uint32 hdrop = 5;
+  float altitude = 6;
+  uint32 speed = 7;
+  string message = 8;
+  google.protobuf.Timestamp timestamp = 9;
+}
