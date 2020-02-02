@@ -1,7 +1,7 @@
 
 # descrição
 
-Simples programa que compara o tamanho de uma mensagem json e protobuf.
+Simples programa que serializa uma mensagem em json e protobuf exibindo seus respectivos tamanhos em Bytes.
 
 # uso
 
